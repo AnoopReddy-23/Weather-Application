@@ -30,7 +30,7 @@ let weather = {
     if(temp>=15){
       str+='Wear Shirts, Jeans, Trousers and Sneakers'
     }
-    if(main==='Clouds'){
+    if(main==='Clouds' || main==='Mist'){
       str+=' and carry an umbrella'
     }
     document.querySelector(".city").innerText = "Weather in " + name + ", "+ country;
